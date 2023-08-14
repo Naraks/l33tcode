@@ -15,7 +15,6 @@ class Solution {
                     buffer = 1
                     digits[i] = 0
                 } else {
-                    buffer = 0
                     digits[i] = newRes
                     return digits
                 }
@@ -23,9 +22,6 @@ class Solution {
             return if (buffer == 1) {
                 val newArr = IntArray(digits.size + 1)
                 newArr[0] = 1
-                for (i in 0 .. digits.size - 1) {
-                    newArr[i + 1] = digits[i]
-                }
                 newArr
             } else digits
         }
