@@ -4,7 +4,7 @@ object Main {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        var search = Search()
+        val search = Search()
 
         val arr1 = intArrayOf(1, 2, 3, 4)
 
