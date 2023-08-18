@@ -4,7 +4,7 @@ object Main {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val sol = Solution()
+        val sol = BreadthFirstSearch()
 
         val graph: HashMap<String, List<String>> = HashMap()
         graph.put("You", listOf("Bob", "Claire", "Alice"))
