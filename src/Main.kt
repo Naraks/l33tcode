@@ -1,13 +1,13 @@
-import plus_one_66.Solution
+import simplify_path_71.Solution
 
 object Main {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val arr = intArrayOf(9)
-
         val s = Solution()
-        s.plusOne(arr)
+
+        println(s.simplifyPath("/../"))
+
     }
 
 }

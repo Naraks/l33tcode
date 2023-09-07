@@ -8,19 +8,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/algorithms_sedgewick_wayne/stdlib.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/src/algorithms_sedgewick_wayne/stdlib.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="stdlib1" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="9e4e0089-6373-4377-a6d4-32a3be99759a" />
+    <option name="uniqueId" value="954cc10b-2738-436f-9e3e-80b975d400d0" />
   </component>
 </module>
