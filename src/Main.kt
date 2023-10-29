@@ -1,4 +1,4 @@
-import simplify_path_71.Solution
+import two_sum.Solution
 
 object Main {
 
@@ -6,7 +6,7 @@ object Main {
     fun main(args: Array<String>) {
         val s = Solution()
 
-        println(s.simplifyPath("/../"))
+        s.twoSum(intArrayOf(3, 2, 4), 6)
 
     }
 
