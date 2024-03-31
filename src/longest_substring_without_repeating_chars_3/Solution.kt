@@ -34,4 +34,22 @@ class Solution {
         return result;
     }
 
+    fun lengthOfLongestSubstring2(str: String): Int {
+        var usedChars = ArrayList<Char>()
+        var result = 0
+
+        for (i in str) {
+            if (usedChars.contains(i)) {
+                usedChars = ArrayList(usedChars.dropWhile { ch -> ch != i }.toList())
+                usedChars.removeAt(0)
+            }
+            usedChars.add(i)
+            if (usedChars.size > result) {
+                result = usedChars.size
+            }
+        }
+
+        return result
+    }
+
 }

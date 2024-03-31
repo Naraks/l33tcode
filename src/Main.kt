@@ -1,4 +1,4 @@
-import two_sum.Solution
+import longest_substring_without_repeating_chars_3.Solution
 
 object Main {
 
@@ -6,7 +6,7 @@ object Main {
     fun main(args: Array<String>) {
         val s = Solution()
 
-        s.twoSum(intArrayOf(3, 2, 4), 6)
+        println(s.lengthOfLongestSubstring2("pwwkew"))
 
     }
 
