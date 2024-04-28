@@ -1,4 +1,4 @@
-import longest_substring_without_repeating_chars_3.Solution
+import t3_longest_substring_without_repeating_chars.Solution
 
 object Main {
 

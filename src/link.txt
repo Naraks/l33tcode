@@ -1,0 +1,9 @@
+https://leetcode.com/studyplan/top-interview-150/
+
+https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=top-interview-150
+https://leetcode.com/problems/longest-common-prefix/description/?envType=study-plan-v2&envId=top-interview-150
+https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=top-interview-150
+https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150
+https://leetcode.com/problems/min-stack/description/?envType=study-plan-v2&envId=top-interview-150
+
+https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150
