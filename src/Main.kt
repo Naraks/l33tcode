@@ -1,13 +1,11 @@
-import t3_longest_substring_without_repeating_chars.Solution
+import leetcode.t202_happy_number.Solution
 
 object Main {
 
     @JvmStatic
     fun main(args: Array<String>) {
         val s = Solution()
-
-        println(s.lengthOfLongestSubstring2("pwwkew"))
-
+        println(s.isHappy(7))
     }
 
 }
